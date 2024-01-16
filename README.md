@@ -1,82 +1,57 @@
-#Popcorn time [![Dependency Status](https://david-dm.org/popcorn-time/popcorn-app.png?theme=shields.io)](https://david-dm.org/popcorn-time/popcorn-time)
-
-# [Goodbye](https://medium.com/p/93f890b8c9f4)
-**Update** *15 March 2014* : Sorry friends, but we removed issue tracking because it was being used to link elsewhere.
-
-## Idea
-
-To allow any computer user to watch movies easily streaming from torrents, without any particular knowledge.
-
-![Demo Screenshot](http://getpopcornti.me/images/how-ui.png)
-
-### Status
-
-Under development (RC1) for Mac OSX - Windows - Linux.
- 
-### APIs
-
-**Currently used:**
-- ~~[RottenTomatoes](http://developer.rottentomatoes.com) for movies metadata.~~
-- ~~[PirateBay](http://thepiratebay.se/browse/207/0/7/0) Recent popular movies list.~~
-- [YIFY](http://yts.re/api) movie torrents API.
-- [OpenSubtitles](http://trac.opensubtitles.org/projects/opensubtitles/wiki/XMLRPC) for subtitles
-- [TheMovieDB](http://www.themoviedb.org/) for movies metadata.
-
-**In discussion:**
-- [SubtitleSeeker](http://www.api.subtitleseeker.com/About/Api-Search/) for subtitles.
+# C++ Repository
+# Welcome to the world of open source! Make your pull request in this repository as a contributor in Hackoctoberfest2022.🔥
+![Hacktoberfest 2021](https://github.com/Tanmay-tiwari-cyber/html/blob/main/static/logo.png)
 
 
-## Building
 
-### Dependencies
+🗣 **Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2022 challenge and earn a limited edition T-shirt.**
 
-You will need nodejs and grunt:
+📢 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
 
-    $ npm install -g grunt-cli
+<div align="center">
 
-### Build
+<img src="https://img.shields.io/badge/C++-blueviolet" alt="Hacktober Badge"/>
+ <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+ <a href="https://github.com/Tanmay-tiwari-cyber" ><img src="https://img.shields.io/badge/Contributions-welcome-violet.svg?style=flat&logo=git" alt="Contributions" /></a>
 
-Install the node modules:
+<a href="https://github.com/Tanmay-tiwari-cyber/js/pulls"><img src="https://img.shields.io/github/issues-pr/Tanmay-tiwari-cyber/js" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/Tanmay-tiwari-cyber/js/"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Tanmay-tiwari-cyber/js?color=2b9348"></a>
 
-    $ npm install
 
-Build with:
+</div>
 
-    $ grunt nodewkbuild
 
-By default it will build for your current platform however you can control that
-by specifying a comma separated list of platforms in the `platforms` option to
-grunt:
+# Instructions-
+    
+## 1. Add your name and github link in CONTRIBUTION.md 
 
-    $ grunt nodewkbuild --platforms=linux32,linux64,mac,win
+## 2. Pick up one or more unsolved problems from [here](https://docs.google.com/spreadsheets/d/1VkqW_BHuqaKmk3T5r8tYWATwEu_h5i3A6qTTA1yz2z0/edit#gid=0).
 
-You can also build for all platforms with:
+## 3. Create a pull request for the same.
 
-    $ grunt nodewkbuild --platforms=all
+## 4. Wait for Pull Request to merge
 
-## Any problem?
+## 5. If the contribution follows the rules and regulations of hackoctoberfest it will be approved.
 
-### Regarding superagent dependency
-Due to [wrong browser verification](https://github.com/visionmedia/superagent/issues/95) on a dependency, this hard fix must be applied.
-Replace `node_modules/moviedb/node_modules/superagent/index.js` contents with:
-```javascript
-// if (typeof window != 'undefined') {
-//   module.exports = require('./lib/superagent');
-// } else if (process.env.SUPERAGENT_COV) {
-//   module.exports = require('./lib-cov/node');
-// } else {
-  module.exports = require('./lib/node');
-// }
+```py
+'''
+always make more then 4 pull request
+lets you have made only 4 pull request to different projects
+but one project is excluded from hackoctoberfest event then your pull request will not be count and 
+then you have remains 3 valid pull request if these projects is not excluded.
+if you fail to make 4 pull request then you cant get swags or t-shirts.
+i will recommend you make pull request to your own repo which is very very saffest side for you..
+keep in mind that repo has hacktoberfest topic..
+'''
 ```
 
-### Regarding Video, MP4 H264 Playback
-- Info: https://github.com/rogerwang/node-webkit/wiki/Support-mp3-and-h264-in-video-and-audio-tag
-- Needed to build a custom build of node-webkit that adds h264 support (or you can download ready-to-go builds from https://file.ac/s4Lt3Vo6rls/)
-- Alternatively, we can replace a .so and .dll file from the correspondent Chrome build to node-webkit and node-webkit.exe
+## Follow Me
+```py
+'''
+To get approval of the pull request much quick 🚀
+'''
+```
 
+<tr><td align="center"><a href="https://github.com/Tanmay-tiwari-cyber"><kbd><img src="https://avatars3.githubusercontent.com/Tanmay-tiwari-cyber?size=100" width="100px;" alt=""/></kbd><br /><sub><b>Tanmay Tiwari<Lohawala></Lohawala></b></sub></a><br /></td>
 
-## Development
-- Run `compass watch` in Terminal for CSS compiling and listen to future changes.
-- [How to build with SublimeText](https://github.com/rogerwang/node-webkit/wiki/Debugging-with-Sublime-Text-2-and-3)
-- Currently Gaze to watch all files and reload the app is disabled due to memory leaks and unstability.
-- Run node-webkit from the root directory with --debug to enable debugging mode like so ```node-webkit . --debug```
+</tr>
